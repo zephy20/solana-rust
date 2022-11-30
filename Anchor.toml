@@ -1,0 +1,16 @@
+[features]
+seeds = false
+skip-lint = false
+[programs.devnet]
+solana_rust = "ArDjG9L5LhcTv4q5kgDdL5McZPrKzAWTcNRkSQPJqb59"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/B0229950/.config/solana/id.json"
+
+[scripts]
+test = "node tests/solana-rust.js"
+    
